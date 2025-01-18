@@ -1,7 +1,8 @@
-use programmable_logic_device::{relay, and_gate, nand_gate, or_gate, xor_gate, nor_gate, inverter};
+use programmable_logic_device::{
+    and_gate, inverter, nand_gate, nor_gate, or_gate, relay, xor_gate,
+};
 
 #[cfg(test)]
-
 #[test]
 fn relay_works() {
     let result = relay(true, true);
